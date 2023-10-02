@@ -1,0 +1,4 @@
+*.exe
+*name.cpp
+*.vscode
+*.json
