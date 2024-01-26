@@ -9,10 +9,20 @@ ans.push_back(nums);
 
   for(int i=0;i<nums.size();i++)
     {
-
-if(i!=index 
+      swap(nums[index], nums[i]);
+      recurr(index+1, nums, ans);
+      swap(nums[index], nums[i]);
     }
 
+}
+
+public:
+
+vector<vcetor<int>> permute(vector<int>& nums)
+{
+vcetor<vector<int>> ans;
+  recurr(0, nums, ans);
+  return ans;
 }
 
 };
