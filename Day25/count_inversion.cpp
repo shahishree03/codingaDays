@@ -51,7 +51,7 @@ int count=0;
   int mid=(low+high/2;
   count+=mergesort(arr, low, mid);
   count+=mergesort(arr, mid+1, high);
-   count= merge(arr, low, mid, high);
+   count+=merge(arr, low, mid, high);
   return count;
 
 }
