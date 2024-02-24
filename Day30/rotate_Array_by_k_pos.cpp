@@ -6,7 +6,7 @@ void rotateArray(vector<int& arr, int n , int k )
 if(k==0) return;
 
 int temp=arr[n-1];
-  for(int i=n-1;i>=0;i--)
+  for(int i=n-1;i>0;i--)
     {
 arr[i]=arr[i-1];
     }
