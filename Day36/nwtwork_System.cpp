@@ -28,7 +28,7 @@ int main()
       {
         int two =arr[i]-pow(2, floor(log2(arr[i])));
         arr[i+1]=arr[i+1]+two;
-        cout<<"Arr[i]"<<arr[i]<<" "<<endl;
+        cout<<"arr[i]"<<arr[i]<<" "<<endl;
         arr[i]=pow(2, floor(log2(arr[i])));
       //  cout<<" two: "<<two<<endl;
        
